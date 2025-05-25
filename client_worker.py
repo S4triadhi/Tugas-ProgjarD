@@ -4,7 +4,7 @@ import json
 import base64
 import os
 
-SERVER = ("127.0.0.1", 6667)
+SERVER = ("127.0.0.1", 6669)
 DELIMITER = "\r\n\r\n"
 
 def send_command(command):
