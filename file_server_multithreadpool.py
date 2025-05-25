@@ -7,8 +7,8 @@ import logging
 from concurrent.futures import ThreadPoolExecutor
 
 # === Configuration ===
-PORT = 6667
-DATA_DIR = "server_files"
+PORT = 6669
+DATA_DIR = "server_temp"
 MAX_WORKERS = int(os.getenv("MAX_WORKERS", 5))
 DELIMITER = b"\r\n\r\n"
 
