@@ -15,7 +15,7 @@ SERVER_WORKERS = [1, 5, 50]
 CLIENT_WORKERS = [1, 5, 50]
 OPS = ["download", "upload"]
 SIZES_MB = [10, 50, 100]
-OUTPUT_FILE = "results.csv"
+OUTPUT_FILE = "Hasil.csv"
 # ——————————————————————————————
 
 def launch_server(mode, worker_count):
