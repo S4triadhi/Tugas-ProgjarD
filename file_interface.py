@@ -56,7 +56,7 @@ class FileInterface:
             return dict(status='ERROR', data=str(e))
 
 
-# Example usage
+
 if __name__ == '__main__':
     fm = FileInterface()
 
@@ -65,10 +65,3 @@ if __name__ == '__main__':
 
     print("\n=== GET FILE ===")
     print(json.dumps(fm.get_file(['pokijan.jpg']), indent=2))
-
-    # Example for upload:
-    # encoded = base64.b64encode(open("test.txt", "rb").read()).decode()
-    # print(json.dumps(fm.upload_file(['test_uploaded.txt', encoded]), indent=2))
-
-    # Example for delete:
-    # print(json.dumps(fm.delete_file(['test_uploaded.txt']), indent=2))
