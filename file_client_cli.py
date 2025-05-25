@@ -5,7 +5,7 @@ import os
 import logging
 
 # Constants
-SERVER_ADDRESS = ("172.16.16.101", 6667)
+SERVER_ADDRESS = ("172.16.16.101", 6669)
 DELIMITER = "\r\n\r\n"
 CHUNK_SIZE = 4096
 
