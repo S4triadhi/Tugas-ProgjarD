@@ -94,7 +94,7 @@ def main():
     """
     Entry point of the program. Starts the server thread.
     """
-    svr = Server(ipaddress='0.0.0.0', port=6667)
+    svr = Server(ipaddress='0.0.0.0', port=6669)
     svr.start()
 
 
